@@ -16,6 +16,8 @@ import java.time.chrono.ChronoLocalDateTime;
 import java.util.List;
 import java.util.UUID;
 
+
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/tarefas")
 public class TaskController {
